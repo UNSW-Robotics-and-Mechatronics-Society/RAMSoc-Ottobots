@@ -11,7 +11,7 @@ Now go to library manager (Sketch > Include Library > Manage Libraries) and down
 
 <img src="images/Library.png" width="auto" height="300px">
 
-To confirm that you have downloaded it, compile the sketch using the 'tick' icon on the top left of the IDE: <img src="initialise/Compile.png" width="500px" height="auto"> 
+To confirm that you have downloaded it, compile the sketch using the 'tick' icon on the top left of the IDE: <img src="images/Compile.png" width="500px" height="auto"> 
 
 The code should compile without any errors.
 

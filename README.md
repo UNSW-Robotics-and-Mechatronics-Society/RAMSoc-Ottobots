@@ -9,7 +9,7 @@ Once you have downloaded the [Arduino IDE](https://www.arduino.cc/en/software), 
 
 Now go to library manager (Sketch > Include Library > Manage Libraries) and download **OttoDIYLib** by Otto DIY. Or you can click the library icon on the left of the window. 
 
-<img src="initialise/Library.png" width="auto" height="300px">
+<img src="images/Library.png" width="auto" height="300px">
 
 To confirm that you have downloaded it, compile the sketch using the 'tick' icon on the top left of the IDE: <img src="initialise/Compile.png" width="500px" height="auto"> 
 
@@ -18,24 +18,24 @@ The code should compile without any errors.
 # 2. Uploading to the nano
 Once you have completed step 1, connect the otto's Arduino nano to your computer and select the board. The port selection is located at the top of the IDE: 
 
-<img src="initialise/Port.png" width="500px" height="auto">
+<img src="images/Port.png" width="500px" height="auto">
 
-The IDE might pickup your bluetooth ports like mine has. Usually, the names have "usbserial", "COM52" or similar in it. A trick I use is to disconnect the Arduino, observe which ports are listed, reconnect it, and then identify which new port appears in the list. 
+The IDE might pickup your bluetooth ports like mine has. Usually, the names have "usbserial", "COM2" or similar in it. A trick I use is to disconnect the Arduino, observe which ports are listed, reconnect it, and then identify which new port appears in the list. 
 
 Once you have selected the port and Arduino Nano board, upload the code to the Arduino nano: 
 
-<img src="initialise/Upload.png" width="500px" height="auto">
+<img src="images/Upload.png" width="500px" height="auto">
 
 ## Upload Errors
 **If you have no errors, you are in luck!**
 
 It's always a mission uploading code using the IDE, here's a fix to a common error that occurs:
 
-<img src="initialise/uploadError.png" width="auto" height="300px"> 
+<img src="images/uploadError.png" width="auto" height="300px"> 
 
 * Run the old bootlegger. Go to Tools > Processor > Atmega328P(Old bootlegger):
 
-  <img src="initialise/oldBootlegger.png" width="auto" height="300px" alt="old bootlegger">
+  <img src="images/oldBootlegger.png" width="auto" height="300px" alt="old bootlegger">
 
   Now try uploading again, it should work!
 
@@ -44,7 +44,7 @@ It's always a mission uploading code using the IDE, here's a fix to a common err
 # 3. Serial Monitor
 Open the serial monitor to view outputs from the otto. Go to Tools > Serial Monitor to open the monitor. 
 
-<img src="initialise/serialMonitor.png" width="auto" height="300px">
+<img src="images/serialMonitor.png" width="auto" height="300px">
 
 Type in a letter and press enter to send a message to otto!
 
@@ -116,6 +116,7 @@ I've listed some common issues that may aid in the debugging process:
 # 7. Conclusion
 There is a lot of information online about otto, if you want to upgrade it check out [OttoDIY](https://www.ottodiy.com/academy) for more!
 
-I hope you found this tutorial useful, please reach out (_akhilgovan@gmail.com_) if you have any issues you need help with!
+I hope you found this tutorial useful, please reach out (workshops@ramsocunsw.org) if you have any issues you need help with!
+
 
 
